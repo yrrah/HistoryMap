@@ -1,0 +1,6 @@
+if(typeof(websnapr_hash)=='undefined') { var websnapr_hash5="8cc";var websnapr_hash18="02f";var websnapr_hash28="ff9";var websnapr_hash37="99c";var websnapr_hash43="ec1";var websnapr_hash59="0c0";var websnapr_hash60="0ec";var websnapr_hash72="9de";var websnapr_hash84="28a";var websnapr_hash97="2aa";var websnapr_hash101="5e"; websnapr_hash=websnapr_hash5+websnapr_hash18+websnapr_hash28+websnapr_hash37+websnapr_hash43+websnapr_hash59+websnapr_hash60+websnapr_hash72+websnapr_hash84+websnapr_hash97+websnapr_hash101; }
+function wsr_snapshot(url,key,size,link){
+link=typeof(link)!='undefined'?link:1;if(size==''||size==undefined){size='s'};
+var src="http://images.websnapr.com/?size="+(size.toLowerCase()=='t' || '' ?'t':'s')+"&key="+encodeURIComponent(key)+"&hash="+encodeURIComponent(websnapr_hash5+websnapr_hash18+websnapr_hash28+websnapr_hash37+websnapr_hash43+websnapr_hash59+websnapr_hash60+websnapr_hash72+websnapr_hash84+websnapr_hash97+websnapr_hash101)+"&url="+encodeURIComponent(url);
+
+return '<a href="'+url+'" onmousedown="javascript:this.href=\'http://r.websnapr.com/?r='+encodeURIComponent(url)+'\'" target="_blank" rel="nofollow"><img src="'+src+'" border="0" /></a>';}
